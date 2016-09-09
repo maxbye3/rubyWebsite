@@ -1,0 +1,139 @@
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+.footer {
+    background-image: url(img/footer_bg.png) !important;
+}
+
+.buttoned-overlay a {
+	background-color: none;
+}
+
+.mod-widget-grid > [class*="col-"].mod-widget-grid--offset-top {
+	margin-top: 0px !important; 
+}
+
+.widget_archive ul, .widget_categories ul, .widget_links ul, .widget_meta ul, .widget_nav_menu ul, .widget_pages ul, .widget_recent_comments ul, .widget_recent_entries ul {
+    list-style: square !important;
+    margin-left: 20px !important;
+	padding-top: 20px;
+}
+
+
+.top-news-item-content .overlay:after {
+    background: -moz-linear-gradient(top, rgba(50,50,50,0.01) 35%, rgba(50,50,50,0.3) 100% ) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%,rgba(50,50,50,0.01)), color-stop(100%,rgba(50,50,50,0.3))) !important;
+    background: -webkit-linear-gradient(top, rgba(50,50,50,0.01) 35%,rgba(50,50,50,0.3) 100%) !important;
+    background: -o-linear-gradient(top, rgba(50,50,50,0.01) 35%,rgba(50,50,50,0.3) 100%) !important;
+    background: -ms-linear-gradient(top, rgba(50,50,50,0.01) 35%,rgba(50,50,50,0.3) 100%) !important;
+    background: linear-gradient(to bottom, rgba(50,50,50,0.01) 35%,rgba(50,50,50,0.3) 100%) !important;     
+}
+
+.seeAll{
+	padding: 10px;
+	font-style: italic;
+	cursor: pointer;
+    width: 23%;
+    margin: 11.725px 0px 0px;
+    transition: none;
+    line-height: 35px;
+    border-width: 0px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 23px;
+    background-color: rgb(193, 66, 64);
+    color: white;
+    text-align: center;
+}
+
+.buttoned-overlay a {
+    width: auto !important;
+    height: auto !important;
+}
+
+hr{
+    margin-top: 50px;
+}
+.site-content{
+	margin-top: 60px;
+}
+
+.moreInfo{
+	color: white;
+    background-color: #c14240;
+    width: 350px;
+    padding: 10px;
+    font-style: italic;
+	font-size: 23px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.buyNow{
+	    width: 110px;
+}
+
+.rubyExpertise{
+	width: 260px;
+}
+
+.social-navigation li {
+    float: left;
+    margin-right: 30px;
+}
+
+.leadershipImg{
+	margin-top: 30px;
+    border: solid 5px;
+}
+
+.leadershipTxt{
+	padding-top: 25px;
+}
+
+.container .mod-widget-grid > [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: 0px !important;
+}
+
+
+body.has-not-sidebar .excerpt .post-content p {
+    font-size: 17px;
+    font-size: 1.7rem;
+    margin-top: 7.5px;
+}
+
+
+@media screen and (min-width: 768px){
+	.footer-widget-middle-col {
+		width: 62% !important;
+	}
+}
+
+a{
+	cursor: pointer;	
+}
+
+.primaryBtn{
+	color: white !important;
+}
+
+.primaryBtn:hover{
+	color: #999 !important;
+}
+
+
+body.home .site {
+    padding-top: 0px !important;
+}

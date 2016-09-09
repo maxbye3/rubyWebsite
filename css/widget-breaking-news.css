@@ -1,0 +1,202 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.widget_breaking_news .breaking_news_wrapper {
+  position: relative;
+  padding: 20px;
+  background: #323232;
+  /* first block owl-carousel with posts title description */
+  /* block with form, date, login-user */
+}
+
+.widget_breaking_news .breaking_news_wrapper .first_line,
+.widget_breaking_news .breaking_news_wrapper .second_line {
+  margin-top: -4px;
+  padding-bottom: 4px;
+}
+
+.widget_breaking_news .breaking_news_wrapper .first_line .owl-breaking-news {
+  padding: 0 50px;
+  /* Meta */
+}
+
+.widget_breaking_news .owl-carousel .owl-controls {
+  display: block;
+}
+
+.widget_breaking_news .owl-theme {
+  background: none;
+}
+
+.widget_breaking_news .owl-theme:hover .owl-controls .owl-nav {
+    bottom: -10px;
+}
+
+.widget_breaking_news .breaking_news_wrapper .first_line .owl-breaking-news .owl-controls .owl-nav {
+    width: 105%
+}
+.widget_breaking_news .breaking_news_wrapper .first_line .owl-breaking-news .breaking_news_meta {
+  max-height: 25px;
+  /* Excerpt content post */
+  /* Title */
+}
+.widget_breaking_news .breaking_news_wrapper .first_line .owl-breaking-news .breaking_news_meta .cat-links a {
+  background: #c14240;
+  vertical-align: super;
+}
+.widget_breaking_news .breaking_news_wrapper .first_line .owl-breaking-news .breaking_news_meta .cat-links a:hover {
+  background-color: rgba(193, 66, 64, 0.5);
+}
+.widget_breaking_news .breaking_news_wrapper .first_line .owl-breaking-news .breaking_news_meta .breaking_news_excerpt {
+  color: #808080;
+}
+.widget_breaking_news .breaking_news_wrapper .first_line .owl-breaking-news .breaking_news_meta .breaking_news_title {
+  color: #fff;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+.widget_breaking_news .breaking_news_wrapper .first_line .owl-breaking-news .breaking_news_meta .breaking_news_title:hover {
+  color: #c14240;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line {
+  /* Login popup */
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup {
+  position: absolute;
+  right: 0;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup a:hover {
+  color: #c14240;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup .login_popup_title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form {
+  overflow: hidden;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form p {
+  margin-bottom: 13px;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form input,
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form label {
+  color: #808080;
+  font-size: 16px;
+  font-size: 1.6rem;
+  outline: none;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form input[type="checkbox"] {
+  display: none;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form input[type="checkbox"] + span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background: #ffffff;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form input[type="checkbox"]:checked + span:before {
+  content: "\f00c";
+  font-family: 'FontAwesome';
+  display: block;
+  margin: -2px 0 0 1px;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form .login-username input,
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form .login-password input {
+  padding: 7px 5px;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form .login-username label,
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form .login-password label {
+  display: none;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form .login-submit {
+  float: left;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form .login-remember {
+  float: right;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form .login-remember label {
+  cursor: pointer;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form .login-submit input[type="submit"] {
+  padding: 10px 40px;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  color: #fff;
+  background-color: #c14240;
+  color: #dad6d5;
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup form .login-submit input[type="submit"]:hover {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  color: rgba(218, 214, 213, 0.5);
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup .login_popup_forgot_password {
+  color: rgba(255, 255, 255, 0.5);
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup .login_popup_forgot_password:hover {
+  color: #ffffff;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup .login_popup_toggle {
+  padding: 0 25px;
+  font-size: 16px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #fff;
+  display: block;
+  border-left: 1px solid #808080;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup .login_popup_logout {
+  font-size: 24px;
+  font-size: 2.4rem;
+  color: #fff;
+  margin-right: 32px;
+  display: block;
+  line-height: 1.4;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .login_popup .login_popup_form {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  z-index: 10;
+  min-height: 300px;
+  width: 370px;
+  padding: 26px 35px;
+  background-color: #37342f;
+  display: none;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .owl-breaking-news-date {
+  max-width: 130px;
+  position: absolute;
+}
+.widget_breaking_news .breaking_news_wrapper .second_line .owl-breaking-news-date .breaking_news_date {
+  text-transform: uppercase;
+  top: 24px;
+  left: 30px;
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+/* Remove login form & date in the loop */
+.site-content .widget_breaking_news .container {
+  width: 100%;
+}
+.site-content .widget_breaking_news .second_line .owl-breaking-news-date {
+  display: none;
+}
+.site-content .widget_breaking_news .login_popup {
+  display: none;
+}
