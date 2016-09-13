@@ -106,33 +106,48 @@ var edd_scripts = {"ajaxurl":"http:\/\/webdesign-finder.com\/lifecoach\/wp-admin
             <div class="head-menu-left" style="background: url(img/logo_small.png) top left no-repeat">
                 <a>
                                             <span class="menu-title">
-                            Ruby<span class="ultra-bold">Wax</span>                        </span>
+                            Ruby<b>Wax</b>                        </span>
                                     </a>
             </div>
             <div class="social-search">
 <ul id="menu-head-menu-right-section" class="social-navigation">
-	<li id="menu-item-2125" class="fa fa-facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-2125"></li>
-	<li id="menu-item-2124" class="fa fa-twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-2124"></li>
-	<li id="menu-item-2126" class="fa fa-google-plus-circle menu-item menu-item-type-custom menu-item-object-custom menu-item-2126"></li>
-</ul>                                                    <div class="search-box">
+	<a class="contact"><li id="menu-item-2125" class="fa fa-phone menu-item menu-item-type-custom menu-item-object-custom menu-item-2125"></li></a>
+	<a target="_blank" href="https://www.facebook.com/RubyWaxOfficial/?fref=ts"><li id="menu-item-2125" class="fa fa-facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-2125"></li></a>
+	<a target="_blank" href="https://twitter.com/Rubywax"><li id="menu-item-2124" class="fa fa-twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-2124"></li></a>	
+</ul>                                                    
+				
+					<div class="search-box">
+						<a href="http://www.rubywax.net/blog" target="_blank" style="color: white">
                     <span class="icon-search">
+						
                         <i class="fa fa-file" style="margin-top: 18px;"></i>
+										
                     </span>
-
+					</a>
                     </div>
+
                             </div>                
 							
 							<nav class="main-nav" style="float: none;">
 								
-								<ul id="menu-main-menu" class="menu"><li id="menu-item-2107" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2107">
+								<ul id="menu-main-menu" class="menu">
+									<li id="menu-item-2107" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2107">
 									
 								
 
-<li id="menu-item-2904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2904 dropdown"><a title="Pages" class="leadership" aria-haspopup="true" data-dup="Pages">Leadership</a>
+<li id="menu-item-2904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2904 dropdown">
+	
+	<a title="Pages" class="leadership" aria-haspopup="true" data-dup="Pages">Leadership</a>
+
 <ul role="menu" class="sub-menu">
-	<li id="menu-item-2490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2490"><a title="Leadership" class="leadership" data-dup="Leadership">Leadership</a></li>
-	<li id="menu-item-2123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2123"><a title="Ruby's Background" class="rubyBackground" data-dup="Ruby's Background">Ruby's Background</a></li>
+	<li id="menu-item-2490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2490">
+		<a title="Leadership" value="leadership" class="leadership" data-dup="Leadership">Leadership</a>
+	</li>
+	<li id="menu-item-2123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2123">
+		<a title="Ruby's Background" class="rubyBackground" data-dup="Ruby's Background">Ruby's Background</a>
+	</li>
 </ul>
+
 </li>
 <li id="menu-item-2623" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2623 dropdown">
 	<a title="Clients" class="someClients" aria-haspopup="true" data-dup="Clients">Clients</a>
@@ -178,10 +193,66 @@ var edd_scripts = {"ajaxurl":"http:\/\/webdesign-finder.com\/lifecoach\/wp-admin
 
 </nav>
                 <div class="nav-button">
-                    <select class="mobile-menu">
-                        <option value="" selected> - - Main Navigation - - </option>
-                    </select>
-                    <div class="mobile-menu-title"><i class="fa fa-bars"></i></div>
+<div class="mobileSticky" onclick="displayMobileMenu()">
+	<i class="fa fa-bars"></i>
+</div>
+
+
+     
+<div class="mobile-menu-title" onclick="displayMobileMenu()"><i class="fa fa-bars"></i></div>
+	
+
+<div class="mobileMenu">
+<li id="menu-item-2904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2904 dropdown" style="padding-top: 10px;">
+	
+	
+	<a title="Pages" class="leadership" aria-haspopup="true" data-dup="Pages">Leadership</a>
+
+<ul role="menu" class="sub-menu">
+	<li id="menu-item-2123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2123">
+		<a title="Ruby's Background" class="rubyBackground" data-dup="Ruby's Background">Ruby's Background</a>
+	</li>
+</ul>
+
+</li>
+<li id="menu-item-2623" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2623 dropdown">
+<ul role="menu" class="sub-menu">
+	<li id="menu-item-2293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2293">
+		<a title="Some Clients" class="someClients" data-dup="Some Clients">Some Clients</a></li>
+	<li id="menu-item-2379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2379">
+		<a title="All Clients" class="allClients" data-dup="All Clients">All Clients</a></li>
+	<li id="menu-item-2378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2378">
+		<a title="What Clients Have Said" class="whatClients" data-dup="What Clients Have Said">What Clients Have Said</a></li>
+</ul>
+</li>
+<li id="menu-item-2624" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2624 dropdown">
+	<a title="Entertainer" class="entertainer" aria-haspopup="true" data-dup="Entertainer">Entertainer</a>
+<ul role="menu" class="sub-menu">
+	<li id="menu-item-2474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2474">
+		<a title="Videos" class="videos" data-dup="Videos">Videos</a>
+	</li>
+</ul>
+</li>
+
+
+	<li id="menu-item-2478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2478">
+		<a title="Mental Health Campaigner" class="mentalHealth" data-dup="Mental Health Campaigner">Mental Health Campaigner</a>
+	</li>
+
+<li id="menu-item-2624" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2624 dropdown">
+<ul role="menu" class="sub-menu">
+	<li id="menu-item-2468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2468">
+		<a title="A Mindfulness Guide For The Frazzled" class="mindfulnessGuide" data-dup="A Mindfulness Guide For The Frazzled">A Mindfulness Guide For The Frazzled</a></li>
+	<li id="menu-item-2474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2474">
+		<a title="Sane New World" class="sane" data-dup="Sane New World">Sane New World</a></li>
+</ul>
+</li>               
+
+	<li id="menu-item-2478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2478" style="padding-bottom: 10px;">
+		<a title="Contact" class="contact" data-dup="Contact">Contact</a>
+	</li>
+</div>
+
                 </div>
         </div>
     </div>
@@ -456,7 +527,7 @@ Ruby Wax offers leadership and management training, using workshops and practica
             </div>
 			</div>			
 
-            <div id="recent-posts-8" class="custom-widget-featured widget-2 widget-even col-md-4 widget widget_recent_entries">			                
+            <div id="recent-posts-8" class="mobileImgError custom-widget-featured widget-2 widget-even col-md-4 widget widget_recent_entries">			                
                 
                 <img src="img/ruby2.jpg" class="leadershipImg">
 
@@ -605,7 +676,7 @@ Ruby Wax offers leadership and management training, using workshops and practica
 
 
 
-<center><h1 class="seeAll"><a class="primaryBtn allClients">See All Clients</a></h1></center>
+<center><h1 class="seeAll allClientsBtn allClients"><a class="primaryBtn">See All Clients</a></h1></center>
 
 
 
@@ -1390,6 +1461,8 @@ Ruby Wax offers leadership and management training, using workshops and practica
             <!-- end of row -->
 
 
+<center><h1 class="seeAll hideAllClients" style="display: none;"><a class="primaryBtn" >Hide All Clients</a></h1></center>
+
 	<div id="primary" class="content-area whatClientsSection">
 		<main id="main" class="site-main">
 
@@ -1802,7 +1875,7 @@ Outrageously witty, smart and accessible, Ruby Wax shows ordinary people how and
 
  <div class="moreInfo buyNow"><a class="primaryBtn" href="https://www.amazon.co.uk/Mindfulness-Guide-Frazzled-Ruby-Wax/dp/024118648X">Buy now</a></div>
 
-
+<p class="mobileTxtError">
 “Ruby speak[s] of the deepest and most painful things with openness, wisdom and humour, bringing acute observations to a field that badly needs them" <br><b>- Prof. Mark Williams</b><br><br>
 ‘Pages and pages of practical exercises and advice on how to teach mindfulness to babies, teenagers and parents’ <br><b>– Sunday Times</b><br><br>
 ‘Whip-smart on the subject… she teaches the art of doing nothing in a way that doesn’t send you to sleep’ <br><b>– The Times</b><br><br>
@@ -1814,7 +1887,7 @@ Outrageously witty, smart and accessible, Ruby Wax shows ordinary people how and
  ‘Well timed and combines a theoretical, practical and personal account of mindfulness… an easy, uplifting, humorous read’ <br><b>– The Psychologist</b><br><br>
 ‘Witty and accessible’  <br><b>– woman & home</b><br><br>
  ‘This witty, smart and accessible read should be top of your reading list’ ​<br><b>– Closer</b><br><br>
-
+</p>
 
 </div>
 
@@ -2037,10 +2110,10 @@ Ruby uses these skills to create a bespoke and fit for purpose leadership learni
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div>
 		</div></div>
                 <div class="col-sm-4 footer-widget-last-col"><div id="text-9" class="widget-1 widget-first widget-odd  widget widget_text"><h3 class="widget-title">Contacts</h3>			<div class="textwidget"><ul class="foot-contacts">
-    <li><i class="fa fa-phone" aria-hidden="true" style="color: rgb(193, 66, 64);"></i> &nbsp; 0207 243 8492</i></li>
-    <li><i class="fa fa-twitter" aria-hidden="true" style="color: rgb(193, 66, 64);"></i> &nbsp; Twitter </i></li>
-    <li><i class="fa fa-facebook" aria-hidden="true" style="color: rgb(193, 66, 64);"></i> &nbsp; Facebook</i></li>
-	<li><i class="fa fa-file" aria-hidden="true" style="color: rgb(193, 66, 64);"></i> &nbsp; Blog</i></li>
+    <a><li><i class="fa fa-phone" aria-hidden="true" style="color: rgb(193, 66, 64);"></i> &nbsp; 0207 243 8492</i></li></a>
+    <a target="_blank" href="https://twitter.com/Rubywax"><li><i class="fa fa-twitter" aria-hidden="true" style="color: rgb(193, 66, 64);"></i> &nbsp; Twitter </i></li>
+    <a target="_blank" href="https://www.facebook.com/RubyWaxOfficial/?fref=ts"><li><i class="fa fa-facebook" aria-hidden="true" style="color: rgb(193, 66, 64);"></i> &nbsp; Facebook</i></li>
+	<a target="_blank" href="http://www.rubywax.net/blog"><li><i class="fa fa-file" aria-hidden="true" style="color: rgb(193, 66, 64);"></i> &nbsp; Blog</i></li></a>
 </ul></div>
 		</div><div id="nav_menu-3" class="widget-2 widget-last widget-even  widget widget_nav_menu"><div class="menu-head-menu-right-section-container">
 		</div></div></div>
@@ -2069,14 +2142,65 @@ Ruby uses these skills to create a bespoke and fit for purpose leadership learni
 <script type='text/javascript' src='http://webdesign-finder.com/lifecoach/wp-content/themes/lifecoach/inc/widgets/widget-breaking-news/widget-breaking-news.js?ver=all'></script>
 
 <script>
+/* CHECK SCROLL
+* if top of page then remove mobile Menu with fixed position
+* if not then add mobile Menu
+*/
+jQuery(window).scroll(function (event) {
+    var scroll = jQuery(window).scrollTop();
+	jQuery(".mobileMenu").fadeOut();
+	console.log(scroll);
+
+	if(scroll > 100){
+		jQuery(".mobileSticky").fadeIn();
+		jQuery(".mobileMenu").css("margin-top","-10px");
+	}
+	else {
+		jQuery(".mobileSticky").fadeOut();
+		jQuery(".mobileMenu").css("margin-top","5px");
+	}
+});
+// check scroll
+
+// DISPLAY MOBILE MENU
+// Add mobile menu if either mobile menu is clicked
+function displayMobileMenu(){
+	jQuery(".mobileMenu").fadeIn();
+}
+
+/* SHOW ALL CLIENTS
+* show all clients
+* show hideAllClients button
+* hide See All Clients button
+* hide Some Clients
+*/
+function showAllClients(){
+	jQuery(".allClientsSection").show();
+	jQuery(".hideAllClients").show();
+	jQuery(".allClientsBtn").hide();
+	jQuery(".someClients").hide();
+}
+
+/* HIDE ALL CLIENTS
+* hide all clients
+* hide Hide AllClients button
+* show See All Clients button
+* show Some Clients
+*/
+function hideAllClients(){
+	jQuery(".allClientsSection").hide();
+	jQuery(".hideAllClients").hide();
+	jQuery(".allClientsBtn").show();
+	jQuery(".someClients").show();
+}
 
 function scroll(from,to,offset){
 	jQuery("."+from).click(function() {
 
 		if(from == "allClients"){
-			jQuery(".allClientsSection").show();
+			showAllClients();
 		}
-		else jQuery(".allClientsSection").hide();
+		else hideAllClients();
 
 		console.log('scroll to leadership');
 		jQuery('html,body').animate({
@@ -2084,7 +2208,7 @@ function scroll(from,to,offset){
 			'slow');
 	});
 }
-
+scroll('hideAllClients','someClientsSection',40);
 scroll('leadership','leadershipSection',100);
 scroll('rubyBackground','rubyBackgroundSection',100);
 scroll('someClients','someClientsSection',40);

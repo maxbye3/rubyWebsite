@@ -11,6 +11,55 @@ img.emoji {
 	padding: 0 !important;
 }
 
+.nav-button{
+    width: 100%;
+    
+    top: 0px;
+    left: 0px;    
+}
+
+.mobileMenu{
+    position: fixed;
+    width: 100%;
+    margin-top: -10px;
+    opacity: 1;
+    display: none;
+    margin-top: 5px;
+}
+
+.mobileSticky{
+    display: none;
+    width: 80px;
+    line-height: 40px;
+    font-size: 32px;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #dad6d5;
+    text-transform: uppercase;
+    margin-top: -10px;
+    background: black;
+    width: 100%;
+    opacity: .4;
+    position: fixed;
+}
+
+.nav-button li{
+    background: #808080;
+   
+    list-style-type: none;
+    padding-bottom: 5px;
+   
+}
+
+.nav-button li a{
+    border-bottom: solid 2px white;
+     color: white;
+}
+
+.main-nav {
+    padding: 0px !important;
+}
+
 .footer {
     background-image: url(img/footer_bg.png) !important;
 }
@@ -137,3 +186,39 @@ a{
 body.home .site {
     padding-top: 0px !important;
 }
+
+
+.social-search {
+    z-index: 100;
+}
+
+
+@media (max-width: 1240px) {
+  .moreInfo {
+    width: 100%;
+  }
+
+  @media (max-width: 991px) {
+  .featured {
+    display: none;
+  }
+
+
+
+ @media (max-width: 770px) {
+  .mobileImgError{
+      display: none;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1100px) {
+.mobileTxtError{
+    display: none;
+}
+}
+
+  @media (max-width: 414px) {
+  .seeAll {
+    width: 100%;
+  }
+
