@@ -1,3 +1,9 @@
+body::selection {
+    background: none repeat scroll 0 0 #E11E2B;
+    color: #ffffff;
+}
+
+
 img.wp-smiley,
 img.emoji {
 	display: inline !important;
@@ -27,6 +33,10 @@ img.emoji {
     margin-top: 5px;
 }
 
+.cat-links-floated, .post-comments-floated {
+    font-size: 1.6rem !important;
+}
+
 .mobileSticky{
     display: none;
     width: 80px;
@@ -45,10 +55,8 @@ img.emoji {
 
 .nav-button li{
     background: #808080;
-   
     list-style-type: none;
-    padding-bottom: 5px;
-   
+    padding-bottom: 5px;   
 }
 
 .nav-button li a{
@@ -100,10 +108,20 @@ img.emoji {
     letter-spacing: 0px;
     font-weight: 400;
     font-size: 23px;
-    background-color: rgb(193, 66, 64);
+    background-color: #E11E2B;
     color: white;
     text-align: center;
 }
+
+
+.cat-links-floated a {
+    color: #E11E2B !important;
+}
+
+.cat-links-floated:after {
+    background-color: #E11E2B !important;
+}
+
 
 .buttoned-overlay a {
     width: auto !important;
@@ -119,7 +137,7 @@ hr{
 
 .moreInfo{
 	color: white;
-    background-color: #c14240;
+    background-color: #E11E2B;
     width: 350px;
     padding: 10px;
     font-style: italic;
@@ -190,6 +208,10 @@ body.home .site {
 
 .social-search {
     z-index: 100;
+}
+
+.footer .wpcf7 input[type="submit"] {
+    background: #E11E2B;
 }
 
 
