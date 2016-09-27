@@ -181,6 +181,9 @@ body.has-not-sidebar .excerpt .post-content p {
     margin-top: 7.5px;
 }
 
+.tp-revslider-mainul{
+	background: white !important;
+}
 
 @media screen and (min-width: 768px){
 	.footer-widget-middle-col {
@@ -214,6 +217,13 @@ body.home .site {
     background: #E11E2B;
 }
 
+
+.social-navigation {
+    list-style: none;
+    position: relative;
+    left: -20px;
+	padding-right: 0px !important;
+}
 
 @media (max-width: 1240px) {
   .moreInfo {
